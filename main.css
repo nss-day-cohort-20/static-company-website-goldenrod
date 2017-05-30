@@ -142,3 +142,19 @@ footer div {
 	margin-left: auto;
 	margin-right: auto;
 }
+
+
+/* Founder's Page Styling */
+.founders {
+	text-align: center;
+	padding: 0em 1em 0em 1em;
+}
+
+.border {
+	border-bottom: 2px solid black;
+}
+
+.astronauts {
+	display: flex;
+	justify-content: space-around;
+}
