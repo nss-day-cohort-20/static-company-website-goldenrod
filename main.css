@@ -152,3 +152,7 @@ div#goldenRod img {
 div#goldenRod h1, div#goldenRod h3, div#goldenRod p {
 	text-align: center;
 }
+
+div ul li {
+	list-style: none;
+}
