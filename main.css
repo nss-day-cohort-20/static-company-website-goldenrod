@@ -1,0 +1,144 @@
+/*** general styles ***/
+body {
+	width: 100%;
+	background-color: #ebebeb;
+	margin: 0;
+	height: 100%;
+}
+h1 {
+	font-family: 'Montserrat Subrayada', monospace;
+}
+h2, h3, h4 {
+	font-family: 'Russo One', sans-serif;
+	letter-spacing: 1px;
+}
+h5, h6, p, a {
+	font-family: 'Open Sans', sans-serif;
+}
+p {
+	color: slategrey;
+}
+/*** nav styles ***/
+header#top {
+	background-color: #1d0040;
+	color: #fff;
+	width: 100%;
+	
+}
+#top nav {
+	display: flex;
+	justify-content: space-between;
+}
+
+header#top nav div {
+	display: flex;
+	margin-left: 50px;
+}
+
+header#top nav div a {
+	align-self: center;
+}
+
+header#top nav ul {
+	margin: 0 100px 0 0;
+	padding-left: 0;
+}
+
+header#top nav ul {
+	align-self: center;
+}
+
+#top li {
+	display: inline-block;
+	list-style: none;
+}
+
+#top a {
+	text-decoration: none;
+	color: white;
+	font-size: 1.2em;
+	padding: 10px;
+}
+
+/**** Logo Space ******/
+div#logo img {
+	display: block;
+	margin: 2em auto;
+}
+div#logo h1, div#logo h3, div#logo p {
+	text-align: center;
+}
+div#logo h3 {
+	color: #daa520;
+}
+div#logo p {
+	color: #000;
+	font-size: 1.1em;
+	margin-bottom: 2em;
+}
+
+/** Big Image **/
+
+#main_photo {
+	background-image: url("img/main_photo.jpg");
+	background-size: cover;
+	width: 100%;
+	height: 100%;
+	background-repeat: no-repeat;
+	background-position: center;
+	padding-top: 5%;
+	box-shadow: 2px 2px 20px #888888;
+}
+#product-information {
+	margin-bottom: 8%;
+	width: 25%;
+	margin-left: 8%;
+	background-color: #1d0040;
+	color: #fff;
+	border-radius: 10%;
+	padding: 2em;
+}
+
+
+/*** product styles ***/
+#products {
+	display: flex;
+	justify-content: space-around;
+	width: 85%;
+	margin-top: 2em;
+}
+
+.eachProduct {
+	display: flex;
+	justify-content: flex-start;
+}
+
+
+
+/** Footer **/
+
+footer {
+	background-color: #1d0040;
+	padding-top: 1em;
+	margin: 0;
+	padding-bottom: 0;
+}
+
+footer img {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 1em;
+}
+footer p, footer a {
+	display: inline;
+	color: #fff;
+	margin: .5em;
+}
+
+
+footer div {
+	width: 25%;
+	margin-left: auto;
+	margin-right: auto;
+}
