@@ -113,8 +113,6 @@ div#logo p {
 	justify-content: flex-start;
 }
 
-
-
 /** Footer **/
 
 footer {
@@ -142,3 +140,21 @@ footer div {
 	margin-left: auto;
 	margin-right: auto;
 }
+
+/*** contact styles ***/
+div#social {
+	border: 1px solid red;
+	width: 90%;
+	margin: 0 auto;
+}
+div.contact-box {
+	border: 1px solid blue;
+	width: 10%;
+	margin: 0 1em;
+	display: inline-block;
+}
+div.contact-box p {
+	text-align: center;
+}
+
+
