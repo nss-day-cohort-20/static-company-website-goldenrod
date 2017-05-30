@@ -141,6 +141,7 @@ footer div {
 	margin-right: auto;
 }
 
+
 /*** contact styles ***/
 div#social {
 	border: 1px solid red;
@@ -158,3 +159,32 @@ div.contact-box p {
 }
 
 
+
+/* Founder's Page Styling */
+.founders {
+	text-align: center;
+	padding: 0em 1em 0em 1em;
+}
+
+.border {
+	border-bottom: 2px solid black;
+}
+
+.astronauts {
+	display: flex;
+	justify-content: space-around;
+  
+  /**Company History **/
+div#goldenRod img {
+	display: block;
+	margin: 2em auto;
+}
+
+div#goldenRod h1, div#goldenRod h3, div#goldenRod p {
+	text-align: center;
+}
+
+div ul li {
+	list-style: none;
+
+}
