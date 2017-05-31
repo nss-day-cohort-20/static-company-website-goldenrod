@@ -16,7 +16,7 @@ function makeProduct (name, description, price, image) {
   var planetaryNebula = makeProduct("Planetary Nebula", "Expand your wisdom from Red Supergiant with Planetary-Nebula! Be the Einstein in your Galaxy!", 5000, "img/for_product-page/jar-of-star.jpg");
   var redSupergiant = makeProduct("Red Supergiant", "The Wisdom Effect: Aging Red Supergiant helps you age your brain and gain wisdom!", 9000, "img/for_product-page/jar-of-star.jpg");
   var supernova = makeProduct("SuperNova", "Become a brilliant light BLAST!!", 8000, "img/for_product-page/jar-of-star.jpg");
-  var blackHole = makeProduct("Black Hole", "Need Solitude? Black Hole is your friend!", 1, "img/for_product-page/jar-of-star.jpg");
+  var blackHole = makeProduct("Black Hole", "Need Solitude? Black Hole is your friend! FINAL SALE", 1, "img/for_product-page/jar-of-star.jpg");
   var neutron = makeProduct("Neutron", "Jimmy?", 500, "img/for_product-page/jar-of-star.jpg");
 
   var eachProduct = [stellarNebula, averageStar, massiveStar, planetaryNebula, redSupergiant, supernova, blackHole, neutron];
@@ -31,7 +31,7 @@ function makeProduct (name, description, price, image) {
 	  		<div class="info">
 		  		<h3>${eachProduct[i].name}</h3>
 		  		<p>${eachProduct[i].description}</p>
-		  		<button>Buy</button>
+		  		<button>$${eachProduct[i].price}.00</button>
 		  	</div>
 		  </div>`;
 	} else {
@@ -43,7 +43,7 @@ function makeProduct (name, description, price, image) {
 	  		<div class="info">
 		  		<h3>${eachProduct[i].name}</h3>
 		  		<p>${eachProduct[i].description}</p>
-		  		<button>Buy</button>
+		  		<button>$${eachProduct[i].price}.00</button>
 		  	</div>
 		  </div>`;
 
