@@ -116,7 +116,7 @@ div#product-page {
 
 .eachProduct {
 	display: flex;
-	justify-content: center;
+	justify-content: flex-start;
 }
 
 .row_left, .row_right {
