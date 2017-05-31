@@ -101,6 +101,10 @@ div#logo p {
 
 
 /*** product styles ***/
+div#product-page {
+	width: 90%;
+	margin: 2em auto;
+}
 #products {
 	display: flex;
 	justify-content: space-between;
@@ -121,10 +125,9 @@ div#logo p {
 	padding: 0 50px;
 }
 
-
-
-
-
+div.picture img {
+	padding-right: 2em;
+}
 
 /** Footer **/
 
@@ -149,7 +152,86 @@ footer p, footer a {
 
 
 footer div {
-	width: 25%;
+	width: 35%;
 	margin-left: auto;
 	margin-right: auto;
+}
+
+
+/*** contact styles ***/
+h1#contact-page {
+	margin-top: 3em;
+}
+
+div#social {
+	width: 90%;
+	margin: 5em auto;
+}
+div.contact-box {
+	width: 15%;
+	margin: 0 2%;
+	display: inline-block;
+}
+div.contact-box p {
+	text-align: center;
+}
+a i {
+	font-size: 5em;
+}
+div#contact-img {
+	width: 100%;
+	height: auto;
+}
+div#contact-img img {
+	width: 100%;
+}
+div#address h3 {
+	text-align: center
+}
+div#address {
+	width: 550px;
+	margin: 5em auto;
+}
+div#address ul {
+	display: inline-block;
+	padding-left: 0;
+}
+div#address ul li {
+	list-style-type: none;
+	padding-bottom: 1em;
+}
+div#address ul#right {
+	margin-left: 2em;
+}
+
+
+
+
+/* Founder's Page Styling */
+.founders {
+	text-align: center;
+	padding: 0em 1em 0em 1em;
+}
+
+.border {
+	border-bottom: 2px solid black;
+}
+
+.astronauts {
+	display: flex;
+	justify-content: space-around;
+  
+  /**Company History **/
+div#goldenRod img {
+	display: block;
+	margin: 2em auto;
+}
+
+div#goldenRod h1, div#goldenRod h3, div#goldenRod p {
+	text-align: center;
+}
+
+div ul li {
+	list-style: none;
+
 }
