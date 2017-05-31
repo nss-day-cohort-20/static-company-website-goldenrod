@@ -103,7 +103,7 @@ div#logo p {
 /*** product styles ***/
 #products {
 	display: flex;
-	justify-content: space-around;
+	justify-content: space-between;
 	width: 75%;
 	margin-top: 2em;
 	margin-right: auto;
@@ -112,16 +112,17 @@ div#logo p {
 
 .eachProduct {
 	display: flex;
-	justify-content: flex-start;
+	justify-content: center;
 }
 
 .row_left, .row_right {
+	width: auto;
 	flex-grow: 1;
+	padding: 0 50px;
 }
 
-.row_left {
-	padding-right: 50px;
-}
+
+
 
 
 
