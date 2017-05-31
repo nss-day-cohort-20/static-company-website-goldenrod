@@ -104,13 +104,23 @@ div#logo p {
 #products {
 	display: flex;
 	justify-content: space-around;
-	width: 85%;
+	width: 75%;
 	margin-top: 2em;
+	margin-right: auto;
+	margin-left: auto;
 }
 
 .eachProduct {
 	display: flex;
 	justify-content: flex-start;
+}
+
+.row_left, .row_right {
+	flex-grow: 1;
+}
+
+.row_left {
+	padding-right: 50px;
 }
 
 
