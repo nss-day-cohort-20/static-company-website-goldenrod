@@ -10,6 +10,7 @@ function makeProduct (name, description, price, image) {
 
 }
 
+
   var stellarNebula = makeProduct("Stellar Nebula", "You will truly be a wondrous thing to behold!", 10000, "img/for_product-page/jar-of-star.jpg");
   var averageStar = makeProduct("Average Star", "Day-to-Day Star Needs", 10, "img/for_product-page/jar-of-star.jpg");
   var massiveStar = makeProduct("Massive Star", "Same as an Average Star- the Massive Star is your day-to-day star needs with extra bulk!", 100, "img/for_product-page/jar-of-star.jpg");
@@ -17,9 +18,11 @@ function makeProduct (name, description, price, image) {
   var redSupergiant = makeProduct("Red Supergiant", "The Wisdom Effect: Aging Red Supergiant helps you age your brain and gain wisdom!", 9000, "img/for_product-page/jar-of-star.jpg");
   var supernova = makeProduct("SuperNova", "Become a brilliant light BLAST!!", 8000, "img/for_product-page/jar-of-star.jpg");
   var blackHole = makeProduct("Black Hole", "Need Solitude? Black Hole is your friend! FINAL SALE", 1, "img/for_product-page/jar-of-star.jpg");
+
   var neutron = makeProduct("Neutron", "Jimmy?", 500, "img/for_product-page/jar-of-star.jpg");
 
   var eachProduct = [stellarNebula, averageStar, massiveStar, planetaryNebula, redSupergiant, supernova, blackHole, neutron];
+
 
   for (var i=0; i<=eachProduct.length; i++) {
   	if (i <=3) {
@@ -47,8 +50,9 @@ function makeProduct (name, description, price, image) {
 		  	</div>
 		  </div>`;
 
-	}
+	  }
   }
+
 
 
 

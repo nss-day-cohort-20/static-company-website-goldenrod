@@ -107,18 +107,28 @@ div#product-page {
 }
 #products {
 	display: flex;
-	justify-content: space-around;
-	width: 85%;
+	justify-content: space-between;
+	width: 75%;
 	margin-top: 2em;
+	margin-right: auto;
+	margin-left: auto;
 }
 
 .eachProduct {
 	display: flex;
-	justify-content: flex-start;
+	justify-content: center;
 }
+
+.row_left, .row_right {
+	width: auto;
+	flex-grow: 1;
+	padding: 0 50px;
+}
+
 div.picture img {
 	padding-right: 2em;
 }
+
 /** Footer **/
 
 footer {
